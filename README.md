@@ -18,7 +18,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 ## Project Description
 
-This project will be my Portfolio as a Developer. Here, I will display projects I've worked on throughout this course thus far displaying the skills I've learned the past few weeks--HTML, CSS, Javascript, Responsive Design, JQuery, and Ajax.
+This project will be my Portfolio as a Developer, and also my very first Project on Github! Here, I will display projects I've worked on throughout this course thus far showcasing (also improving and practicing) the skills I've learned the past few weeks--HTML, CSS, Javascript, Responsive Design, JQuery, and Ajax.
 
 ## Wireframes
 
@@ -43,6 +43,7 @@ This project will be my Portfolio as a Developer. Here, I will display projects 
 - Project Carousel
 - Cute icons to represent each skill
 - Animations
+- Insert Photo of Myself in About Me Section (maybe)
 
 ## Functional Components
 
@@ -67,8 +68,9 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Project Carousel | M | 3hr | -hr | hr |
 | Game | L | 8hr | -hr | hr |
 | Animations | M | 4hr | -hr | hr |
+| About Me Photo | L | 1hr | -hr | hr |
 | Cute Icons | M | 3hr | -hr | hr |
-| Total | H | 18hrs| hrs |
+| Total | H | 19hrs| hrs |
 
 ## Additional Libraries
  TBD
