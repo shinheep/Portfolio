@@ -36,13 +36,13 @@ This project will be my Portfolio as a Developer, and also my very first Project
 - Hamburger Menu/Nav Bar
 - Mobile Layout => Desktop Layout (Responsive Design)
 - Styling
+- Animations
 
 #### PostMVP 
 
 - Some kind of game
 - Project Carousel
 - Cute icons to represent each skill
-- Animations
 - Insert Photo of Myself in About Me Section (maybe)
 
 ## Functional Components
@@ -59,18 +59,18 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Header | H | 1.5hr|  hr | 
 | Mobile Design | H | 5hr | hr|
 | Desktop Design | H | 3hrs|  hr | 
+| Animations | M | 4hr | -hr | hr |
 | Social Media Icons | L | 1hr |  hr |
-| Total | H | 14.5hrs| hrs |
+| Total | H | 18.5hrs| hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
 | Project Carousel | M | 3hr | -hr | hr |
 | Game | L | 8hr | -hr | hr |
-| Animations | M | 4hr | -hr | hr |
 | About Me Photo | L | 1hr | -hr | hr |
 | Cute Icons | M | 3hr | -hr | hr |
-| Total | H | 19hrs| hrs |
+| Total | H | 15hrs| hrs |
 
 ## Additional Libraries
  TBD
