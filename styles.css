@@ -1,0 +1,45 @@
+body {
+    font-family: "Lexend Mega";
+}
+
+h3 {
+    color: #EFABDE;
+    font-size: 35px
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navList {
+    list-style-type: none;
+    display: inline;
+    padding: 0 8px 0 8px;
+
+}
+
+nav {
+    margin: 48px;
+    /* display: none; */
+}
+
+.aboutMe {
+    text-align: center;
+}
+
+.sectionTitles {
+    font-size: 20px;
+}
+
+.projects {
+    text-align: center;
+}
+
+.skills {
+    text-align: center;
+}
+
+.contactMe {
+    text-align: center;
+}
