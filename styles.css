@@ -23,19 +23,16 @@ h3 {
     color: #C614E5;
     font-size: 35px;
     padding: 10px;
-    margin: 25px;
-    align-items: center;}
-
-
-nav {
-    margin: 40px;
-    display: none;
+    margin: 15px;
+    margin-left: 2px;
+    align-items: center;
 }
 
 a {
     text-decoration: none;
     color: black;
-    padding: 10px;;
+    padding: 10px;
+
 }
 
 a:hover {
@@ -43,19 +40,28 @@ a:hover {
     background-color: #C614E5;
     cursor: pointer;
     list-style-type: disc;
+    border-radius: 50px;
 }
 
 .navbar {
-    display: flex;
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
 }
 
-img .image {
-    justify-content: space-between;
-    
+.hamburger {
+    margin-top: 40px;
+    position: fixed;
+    top: 0;
+    right: 0;
 }
 
 .skillsUnderHeader {
-    margin-left: 35px;
+    margin: 80px;
+    padding-top: 120px;
+    text-align: center;
+    font-size: 30px;
 }
 
 #aboutMe {
@@ -113,6 +119,14 @@ button:hover {
     img {
         display: none;
     }
+
+    .navbar {
+        display: none;
+        position: fixed;
+        margin-top: 50px;
+        margin-right: 40px;
+        top: 0;
+        right: 0;
 };
 
 /*Desktop view */
