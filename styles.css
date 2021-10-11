@@ -1,45 +1,119 @@
 body {
     font-family: "Lexend Mega";
+    display: grid;
+    grid-template-rows: 2fr 1fr;
 }
 
-h3 {
-    color: #EFABDE;
-    font-size: 35px
+/* .container {
+    display: grid;
+} */
+
+.main {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10px;
 }
 
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
-.navList {
-    list-style-type: none;
-    display: inline;
-    padding: 0 8px 0 8px;
+h3 {
+    color: #C614E5;
+    font-size: 35px;
+    padding: 10px;
+    margin: 25px;
+    align-items: center;}
 
-}
 
 nav {
-    margin: 48px;
-    /* display: none; */
+    margin: 40px;
+    display: none;
 }
 
-.aboutMe {
+a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;;
+}
+
+a:hover {
+    color: white;
+    background-color: #C614E5;
+    cursor: pointer;
+    list-style-type: disc;
+}
+
+.navbar {
+    display: flex;
+}
+
+img .image {
+    justify-content: space-between;
+    
+}
+
+.skillsUnderHeader {
+    margin-left: 35px;
+}
+
+#aboutMe {
     text-align: center;
+    /* border: 1px solid green; */
 }
 
 .sectionTitles {
     font-size: 20px;
+    color: black;
 }
 
-.projects {
+#projects {
     text-align: center;
+    /* border: 1px solid blue; */
 }
 
-.skills {
-    text-align: center;
+.project {
+    display: inline;
 }
 
-.contactMe {
+#skills {
     text-align: center;
+    /* border: 1px solid red; */
 }
+
+.skillsList {
+    display: inline;
+    padding: 8px;
+}
+
+button {
+    color: #C614E5;
+    background-color: white;
+    border: 3px solid #C614E5;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#contactMe {
+    text-align: center;
+    /* border: 1px solid purple; */
+}
+
+
+/*Tablet view */
+@media only screen and (min-width: 678px) {
+    
+    nav {
+        display: flex;
+    }
+
+    img {
+        display: none;
+    }
+};
+
+/*Desktop view */
+@media only screen and (min-width: 992px) {};
