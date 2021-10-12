@@ -3,8 +3,11 @@
 
 // Toggling Hamburger Menu to Display/Hide NavBar
 $('.hamburger').on('click', function(event){
-    
-    console.log('click worked!')
     event.preventDefault();
     $('.navbar').toggle("display");
   });
+
+$('.bouncy').on('click', function(event){
+    event.preventDefault();
+    $('.bouncy').toggle('bounce', {times:10}, 'slow');
+})

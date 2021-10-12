@@ -1,16 +1,13 @@
 body {
     font-family: "Lexend Mega";
     display: grid;
-    grid-template-rows: 1.5fr 1fr;
+    grid-template-rows: 1.1fr 1fr;
 }
 
-/* .container {
-    background-image: url("https://billypenn.com/wp-content/uploads/2020/09/hotairballoon-montgomerycounty-crop-1024x576.jpg");
-    background-repeat: no-repeat;
-    background-height: auto;
-    background-position: fixed;
-    
-} */
+.container {
+    background-color: #394454;
+}
+
 
 .main {
     display: grid;
@@ -24,10 +21,12 @@ body {
 } */
 
 h3 {
-    color: #C614E5;
-    font-size: 35px;
+    font-family: "Satisfy";
+    color: #25A6DF;
+    font-size: 100px;
     padding: 10px;
-    margin-top: 100px;
+    margin-top: 120px;
+    margin-bottom: 40px;
     text-align: center;
 }
 
@@ -40,48 +39,66 @@ a {
 
 a:hover {
     color: white;
-    background-color: #C614E5;
+    background-color: #286D8B;
     cursor: pointer;
     list-style-type: disc;
     border-radius: 50px;
 }
 
+.main-nav {
+    display: flex;
+}
+
+.navbar a {
+    color: white;
+}
+
 .navbar {
-    display: none;
+    justify-content: flex-end;
     position: fixed;
-    top: 0;
+    top: 2;
     right: 0;
-    font-size: 15px;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(0, 0, 255, 0.2);
 }
 
 .hamburger {
-    margin-top: 38px;
+    display: block;
+    margin-top: 20px;
     position: fixed;
     top: 0;
     right: 0;
 }
 
 .skillsUnderHeader {
-    /* margin-top: 80px;
-    padding-top: 100px; */
     text-align: center;
     font-size: 30px;
-    color: black;
+    color: white;
 }
 
 #aboutMe {
     text-align: center;
-    /* border: 1px solid green; */
+    background-color: #697765;
+    padding-bottom: 20px;
+}
+
+.bouncy {
+    color: blue;
 }
 
 .sectionTitles {
     font-size: 20px;
+    color: white;
+}
+
+.contact {
     color: black;
 }
 
 #projects {
     text-align: center;
-    /* border: 1px solid blue; */
+    background-color: #5185A5;
 }
 
 .project {
@@ -90,7 +107,7 @@ a:hover {
 
 #skills {
     text-align: center;
-    /* border: 1px solid red; */
+    background-color: #8FC2E2;
 }
 
 .skillsList {
@@ -110,7 +127,7 @@ button:hover {
 
 #contactMe {
     text-align: center;
-    /* border: 1px solid purple; */
+    background-color: #F7FAFB;
 }
 
 .fab {
