@@ -5,7 +5,11 @@ body {
 }
 
 /* .container {
-    display: grid;
+    background-image: url("https://billypenn.com/wp-content/uploads/2020/09/hotairballoon-montgomerycounty-crop-1024x576.jpg");
+    background-repeat: no-repeat;
+    background-height: auto;
+    background-position: fixed;
+    
 } */
 
 .main {
@@ -62,6 +66,7 @@ a:hover {
     padding-top: 100px; */
     text-align: center;
     font-size: 30px;
+    color: black;
 }
 
 #aboutMe {
@@ -139,13 +144,13 @@ footer {
         display: none;
     }
 
-    .navbar {
+    /* .navbar {
         display: none;
         position: fixed;
         margin-top: 50px;
         margin-right: 40px;
         top: 0;
-        right: 0;
+        right: 0; */
 };
 
 /*Desktop view */
