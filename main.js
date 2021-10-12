@@ -4,3 +4,5 @@ $('.hamburger').on('click', function(event){
     event.preventDefault();
     $('.navbar').toggle("display");
   });
+
+  

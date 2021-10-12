@@ -1,7 +1,7 @@
 body {
     font-family: "Lexend Mega";
     display: grid;
-    grid-template-rows: 2fr 1fr;
+    grid-template-rows: 1.5fr 1fr;
 }
 
 /* .container {
@@ -14,18 +14,17 @@ body {
     gap: 10px;
 }
 
-header {
+/* header {
     display: flex;
     justify-content: space-between;
-}
+} */
 
 h3 {
     color: #C614E5;
     font-size: 35px;
     padding: 10px;
-    margin: 15px;
-    margin-left: 2px;
-    align-items: center;
+    margin-top: 100px;
+    text-align: center;
 }
 
 a {
@@ -48,18 +47,19 @@ a:hover {
     position: fixed;
     top: 0;
     right: 0;
+    font-size: 15px;
 }
 
 .hamburger {
-    margin-top: 40px;
+    margin-top: 38px;
     position: fixed;
     top: 0;
     right: 0;
 }
 
 .skillsUnderHeader {
-    margin: 80px;
-    padding-top: 120px;
+    /* margin-top: 80px;
+    padding-top: 100px; */
     text-align: center;
     font-size: 30px;
 }
@@ -107,6 +107,25 @@ button:hover {
     text-align: center;
     /* border: 1px solid purple; */
 }
+
+.fab {
+    color: #C614E5;
+}
+
+.fa-linkedin {
+    color: blue;
+}
+
+.fa-github {
+    color: gray;
+}
+
+
+footer {
+    text-align: center;
+    margin: 20px;
+}
+
 
 
 /*Tablet view */
