@@ -9,5 +9,5 @@ $('.bouncy').on('click', function(event){
 // Toggling Hamburger Menu to Display/Hide NavBar
 $('.hamburger').on('click', function(event){
     event.preventDefault();
-    $('.navbar').toggle("display");
+    $('.navbar').toggle("");
   });
