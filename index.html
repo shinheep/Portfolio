@@ -37,19 +37,22 @@
 
       <! -- eventually going to give this a typewriter effect -->
       <div class="skillsUnderHeader">
-        <span id="engineer">Software Engineer</span>, <span id="developer">Software Developer</span>, <span id="programmer">Programmer</span>, <span id="coder">Coder</span>, <span id="dog-lover">Dog Lover</span>
+        <span id="engineer">Software Engineer</span>,
+        <span id="developer">Software Developer</span>,
+        <span id="programmer">Programmer</span>, <span id="coder">Coder</span>,
+        <span id="dog-lover">Dog Lover</span>
       </div>
     </div>
 
-      <div class="navbar">
-        <a href="#container">Home</a>
-        <a href="#aboutMe">About Me</a>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#contactMe"> Contact Me</a>
-      </div>
+    <div class="navbar">
+      <a href="#container">Home</a>
+      <a href="#aboutMe">About Me</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contactMe"> Contact Me</a>
+    </div>
 
-      <a href="#" class="hamburger"><i class="fas fa-bars"></i></a>
+    <a href="#" class="hamburger"><i class="fas fa-bars"></i></a>
 
     <div class="main">
       <section id="aboutMe">
@@ -86,15 +89,42 @@
 
         <i class="fab fa-bootstrap bs"></i>
         <li class="skillsList">Bootstrap</li>
+
+        <i class="fab fa-node-js node"></i>
+        <li class="skillsList">Node JS</li>
+
       </section>
 
+      <!-- Contact Section -->
       <section id="contactMe">
         <h4 class="sectionTitles contact">Say Hello!</h4>
         <p>
-          Interested in working together? I'd love to hear about your projects,
-          and collaborate!
+          Interested in collaborating? Shoot me a message, and let's take it from there!
         </p>
-        <button>Submit</button>
+
+        <div class="contact-form">
+          <div class="form-container">
+              <form action="action_page.php">
+  
+              <span class="form-name">
+              <label for="name">Name</label><br>
+              <input type="text" id="name" name="name" placeholder="Your Name"><br>
+              </span>
+  
+              <span class="form-email">
+              <label for="email">Email Address</label><br>
+              <input type="text" id="email" name="email" placeholder="Your Email"><br>
+              </span>
+  
+              <span class="form-message">
+              <label for="message">Message</label><br>
+              <textarea id="message" name="message" placeholder="Let's connect!"></textarea><br>
+              <button type="submit" value="Send!">Send!</button>
+              </span>
+              </form>
+              </div>
+          </div>
+      </div>
       </section>
     </div>
 

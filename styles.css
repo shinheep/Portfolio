@@ -122,12 +122,6 @@ a:hover {
     padding: 8px;
 }
 
-button {
-    color: #C614E5;
-    background-color: white;
-    border: 3px solid #C614E5;
-}
-
 button:hover {
     cursor: pointer;
 }
@@ -136,6 +130,29 @@ button:hover {
     text-align: center;
     background-color: #F7FAFB;
     padding-bottom: 20px;
+}
+
+button {
+    color: #black;
+    background-color: white;
+}
+
+.form-container {
+    font-family: "Lexend Mega";
+}
+
+::-webkit-input-placeholder {
+    font-family: "Lexend Mega";
+    color: gray;
+}
+
+#message {
+    width: 200px;
+    height: 200px;
+}
+
+.fab {
+    font-size: 2em;
 }
 
 .html {
@@ -154,9 +171,14 @@ button:hover {
     color: #5408C2;
 }
 
+.node {
+    color: #58A543;
+}
+
 .fab:hover{
-    font-size: 3em;
-    transition: 1s ease-out;
+    /* font-size: 3em;
+    transition: 1s ease-out; */
+    color: rgb(5, 93, 112);
   }
 
 .fa-linkedin {
