@@ -81,6 +81,26 @@ a:hover {
     color: white;
 }
 
+#engineer:hover {
+    color: blue;
+}
+
+#developer:hover {
+    color: blue;
+}
+
+#programmer:hover {
+    color: blue;
+}
+
+#coder:hover {
+    color: blue;
+}
+
+#dog-lover:hover {
+    color: magenta;
+}
+
 #aboutMe {
     text-align: center;
     background-color: #697765;
@@ -181,18 +201,36 @@ button {
     color: rgb(5, 93, 112);
   }
 
+footer {
+    text-align: center;
+    margin: 25px;
+    background-color: #394454;
+    margin: 0;
+    color: white;
+}
+
+.copywright {
+    padding-bottom: 10px;
+}
+
+.heart {
+    color: lightpink;
+}
+
+.linkedin-link {
+    color: white;
+}
+
+.github-link {
+    color: white;
+}
+
 .fa-linkedin {
     color: blue;
 }
 
 .fa-github {
     color: gray;
-}
-
-
-footer {
-    text-align: center;
-    margin: 20px;
 }
 
 

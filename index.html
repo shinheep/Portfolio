@@ -29,6 +29,7 @@
       src="https://kit.fontawesome.com/fc9b7adb22.js"
       crossorigin="anonymous"
     ></script>
+
   </head>
 
   <body>
@@ -96,7 +97,7 @@
       </section>
 
       <!-- Contact Section -->
-      <section id="contactMe">
+      <!-- <section id="contactMe">
         <h4 class="sectionTitles contact">Say Hello!</h4>
         <p>
           Interested in collaborating? Shoot me a message, and let's take it from there!
@@ -125,10 +126,53 @@
               </div>
           </div>
       </div>
-      </section>
+      </section> -->
+
+      <div class="fcf-body">
+
+        <div id="fcf-form">
+        <h3 class="fcf-h3">Say Hello!</h3>
+    
+        <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+            
+            <div class="fcf-form-group">
+                <label for="Name" class="fcf-label">Your name</label>
+                <div class="fcf-input-group">
+                    <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                </div>
+            </div>
+    
+            <div class="fcf-form-group">
+                <label for="Email" class="fcf-label">Your email address</label>
+                <div class="fcf-input-group">
+                    <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                </div>
+            </div>
+    
+            <div class="fcf-form-group">
+                <label for="Message" class="fcf-label">Your message</label>
+                <div class="fcf-input-group">
+                    <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                </div>
+            </div>
+    
+            <div class="fcf-form-group">
+                <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+            </div>
+    
+        </form>
+        </div>
+    
     </div>
 
+    </div>
+
+    <!-- Footer Section-->
     <footer>
+      <div class="copywright">
+        Handcrafted with <i class="fas fa-heart heart"></i> by Shinhee
+      </div>
+      
       <a
         class="linkedin-link"
         href="https://www.linkedin.com/in/shinhee-p-b025885a/"
@@ -141,6 +185,9 @@
       >
     </footer>
 
+
+        <!-- Linking PHP to get Contact Info -->
+        <form id="fcf-form-id" class="fcf-form-class" method="post" action="action_page.php"></form>
     <script
       src="https://code.jquery.com/jquery-3.6.0.js"
       integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
