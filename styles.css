@@ -1,17 +1,17 @@
 body {
     font-family: "Lexend Mega";
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
 }
 
 #container {
     background-color: #394454;
+    padding-bottom: 30px;
 }
 
 
 .main {
     display: grid;
-    /* grid-template-rows: 1fr 1fr 1fr 1fr; */
     gap: 10px;
 }
 
@@ -19,6 +19,13 @@ body {
     display: flex;
     justify-content: space-between;
 } */
+
+.logo {
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 0;
+}
 
 h3 {
     font-family: "Satisfy";
@@ -51,6 +58,7 @@ a:hover {
 
 .navbar a {
     color: white;
+    font-size: 14px;
 }
 
 .navbar {
@@ -75,7 +83,7 @@ a:hover {
 
 .skillsUnderHeader {
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     color: white;
 }
 
@@ -101,7 +109,7 @@ a:hover {
 
 #aboutMe {
     text-align: center;
-    background-color: #697765;
+    background-color: #6e8268;
     padding-bottom: 30px;
     margin-top: 10px;
 }
@@ -236,11 +244,15 @@ footer {
 /*Tablet view */
 @media only screen and (min-width: 678px) {
     
-    nav {
+    .navbar {
         display: flex;
     }
+    
+    .navbar a {
+        font-size: 20px;
+    }
 
-    img {
+    .hamburger {
         display: none;
     }
 
