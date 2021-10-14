@@ -30,10 +30,10 @@ body {
 h3 {
     font-family: "Satisfy";
     color: #25A6DF;
-    font-size: 100px;
-    padding: 10px;
+    font-size: 80px;
+    padding: 30px;
     margin-top: 120px;
-    margin-bottom: 40px;
+    margin-bottom: 5px;
     text-align: center;
 }
 
@@ -85,6 +85,7 @@ a:hover {
     text-align: center;
     font-size: 20px;
     color: white;
+    diplay: inline-block;
 }
 
 #engineer:hover {
@@ -104,7 +105,7 @@ a:hover {
 }
 
 #dog-lover:hover {
-    color: magenta;
+    color: lightpink;
 }
 
 #aboutMe {
@@ -134,7 +135,7 @@ a:hover {
 }
 
 .project {
-    display: inline;
+    display: inline-block;
 }
 
 #skills {
