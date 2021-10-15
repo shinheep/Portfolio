@@ -1,7 +1,7 @@
 body {
     font-family: "Lexend Mega";
     display: grid;
-    grid-template-rows: 1fr 2fr;
+    /* grid-template-rows: 1fr 2fr; */
 }
 
 #container {
@@ -116,7 +116,11 @@ a:hover {
 }
 
 .bouncy {
-    color: blue;
+    text-decoration: underline;
+}
+
+.bouncy:hover {
+    color: white;
 }
 
 .sectionTitles {
@@ -135,7 +139,26 @@ a:hover {
 }
 
 .project {
-    display: inline-block;
+    display: grid;
+    text-align: center;
+    line-height: 300px;
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    background: white;
+    color: white;
+    font-size: 15px;
+}
+
+.project:hover {
+    cursor: pointer;
+}
+
+.projectClick {
+    background: black;
+    color: white;
+    border: 1px solid white;;
 }
 
 #skills {
@@ -257,14 +280,20 @@ footer {
         display: none;
     }
 
-    /* .navbar {
-        display: none;
-        position: fixed;
-        margin-top: 50px;
-        margin-right: 40px;
-        top: 0;
-        right: 0; */
+    .project {
+        display: inline-block;
+        border: 1px solid white;
+        width: 400px;
+        height: 400px;
+        font-size: 20px;
+    }
 };
 
 /*Desktop view */
-@media only screen and (min-width: 992px) {};
+@media only screen and (min-width: 992px) {
+    .project {
+        width: 450px;
+        height: 450px;
+        font-size: 25px;
+    }
+};

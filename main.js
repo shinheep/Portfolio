@@ -1,10 +1,3 @@
-// $('h3').animate({left: '250px'});
-
-$('.bouncy').on('click', function(event){
-    event.preventDefault();
-    $('.bouncy').toggle('bounce', {times:10}, 'slow');
-})
-
 
 // Toggling Hamburger Menu to Display/Hide NavBar
 $('.hamburger').on('click', function(event){
@@ -12,15 +5,15 @@ $('.hamburger').on('click', function(event){
     $('.navbar').toggle("display");
   });
 
-  var slideIndex = 1;
-showSlides(slideIndex);
+//Changing Project Background to White, and Font Color to Black using animation
+$('.1').on('click', function(event){
+    $('.1').toggleClass('projectClick');
+})
 
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+$('.2').on('click', function(event){
+    $('.2').toggleClass('projectClick');
+})
 
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+$('.3').on('click', function(event){
+    $('.3').toggleClass('projectClick');
+})
