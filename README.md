@@ -66,11 +66,11 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Project Carousel | M | 3hr | -hr | 0 hr |
-| Game | L | 8hr | -hr | 0 hr |
-| About Me Photo | L | 1hr | -hr | 0 hr |
-| Cute Icons | M | 3hr | -hr |1 hr |
-| Total | H | 15hrs| 1 hrs |
+| Project Carousel | M | 3hr | 2 hr | 0 hr |
+| Game | L | 8hr | 0 hr | 0 hr |
+| About Me Photo | L | 1hr | 0 hr | 0 hr |
+| Cute Icons | M | 3hr | 1hr |1 hr |
+| Total | H | 15hrs| 3 hrs |
 
 ## Additional Libraries
 Font Awesome Icons for Icons
